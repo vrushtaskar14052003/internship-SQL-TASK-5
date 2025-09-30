@@ -73,15 +73,4 @@ SELECT C.CustomerID, C.Name, O.OrderID, O.Product, O.Amount
 FROM Customers C
 RIGHT JOIN Orders O ON C.CustomerID = O.CustomerID;
 ```
-**Result:** Combines LEFT + RIGHT JOIN (all customers and all orders).
-
----
-
-## 🚀 Outcome
-- Learned how to merge data using INNER, LEFT, RIGHT, and FULL joins.  
-- Practiced handling cases with and without matching rows.  
-- Understood the difference between join types and their results.  
-
----
-
 
